@@ -1,0 +1,33 @@
+*{margin:0;padding:0;}
+html{height:100%;}
+body{margin:0;padding:0;font:14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", serif;}
+img{max-width:100%;}
+.alizi-order{border:4px solid #0C0;}
+.alizi-title{height:55px;background:url(title.gif) -10px 5px no-repeat;text-indent:-9999em;overflow:hidden;border-bottom:1px solid #0C0;background-color:transparent !important;}
+.alizi-side .alizi-title{background-position:-10px -55px;}
+.alizi-side{margin-left:-1px;border-left:1px solid #0C0;}
+.alizi-side.alizi-full-row{border-top:4px solid #0C0;}
+.rows-id-params input {display: inline-block;margin-right: 5px;}
+.alizi-rows{margin-top:5px !important;}
+.rows-id-params .rows-head{display:block;}
+rows-id-params .rows-params{margin-left:80px;}
+.rows-id-params .rows-params a{display:block;width:100%;color:#333 !important;background:none;border:none;line-height:22px;padding:0;}
+.rows-id-params .rows-params a img{display:none;}
+.rows-id-params .rows-params a:hover,.rows-id-params .rows-params a.active {color:#f60 !important;}
+
+.alizi-rows{position:relative;padding-top:.2rem;}
+.rows-head{position:absolute;left:0;width:5rem;font-weight:normal;border-bottom:none;padding:2px 0;text-align:right;}
+.rows-params{padding-left:5.5rem;line-height:2rem;}
+.alizi-params{border:1px solid #ccc;padding:0 .2rem;}
+.alizi-params.alizi-params-image{padding:.3rem;}
+select, .alizi-input-text{border-width:1px;padding:0;height:2rem;}
+textarea.alizi-input-text{height:auto !important;}
+.alizi-submit{width:100%;}
+.rows-id-params.rows-id-params-select .rows-head{display:block;}
+.rows-id-params.rows-id-params-select .rows-params{margin-left:5.5rem;}
+.rows-id-params .rows-head,.rows-id-extends .rows-head{position:relative;width:80%;text-align:left;}
+
+.alizi-radio .alizi-params{background-color:#f4f4f4;display:block;float:none;margin-right:5px;border:none;color:#f00;}
+.alizi-radio .alizi-params.active{background-color:#CF2A4F;color:#fff}
+.alizi-radio .alizi-params-image{float:left !important;}
+.alizi-radio .alizi-params input{display:inline-block;}
